@@ -1,0 +1,19 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    color: 666;
+    line-height: 1.5em;
+}
+
+.container{
+    width: 960px;
+    margin: auto;
+    overflow: auto;
+    border: #ccc solid 1px;
+    background: #fff;
+    @include border-radius;
+}
+
+section{
+    min-height: 200px;
+}
